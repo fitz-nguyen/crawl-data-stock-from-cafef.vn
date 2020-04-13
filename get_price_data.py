@@ -36,6 +36,7 @@ def get_data():
         table = soup.find('table', id='GirdTable2').find_all('tr')[2:]
         print(len(table))
         print(table)
+
     except Exception as e:
         print(e)
 
